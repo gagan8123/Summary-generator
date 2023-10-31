@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-wp1g6qzssf+_rp9wfk00zd27zo#3q_n$wscyoeer+ronki)@bl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.ngrok.io','.ngrok-free.app','1286-103-215-237-120.ngrok-free.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -133,5 +133,5 @@ MEDIA_ROOT = BASE_DIR / "audio/"
 #added
 STATICFILES_DIRS = [
     BASE_DIR / "static/",
-    BASE_DIR / "audio/"
+    
 ]
